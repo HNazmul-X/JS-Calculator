@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  border: 1px solid rgba(151, 151, 151, 0.842);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: inset 1px 1px 4px 4px #6969691f;
+          box-shadow: inset 1px 1px 4px 4px #6969691f;
+  color: dimgray !important;
+}
+
+button:focus {
+  outline: none;
+  -webkit-transform: none !important;
+          transform: none !important;
+  font-size: 20px !important;
+}
+
+button:hover {
+  color: white !important;
+  background: rgba(105, 105, 105, 0.685) !important;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.calculator {
+  width: 450px;
+  margin: 50px auto 0 auto;
+  padding: 20px;
+  border: 4px rgba(135, 207, 235, 0.534) solid;
+  height: 500px;
+  background: #dddddd;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.calculator-top-part {
+  height: 100px;
+}
+
+#calculator-input {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  text-align: right;
+  padding-right: 5px;
+  border: none;
+}
+
+#calculator-input:focus {
+  outline: none;
+}
+
+.calculator-bottom-part {
+  margin-top: 20px;
+  height: 333px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.number-key {
+  width: 80%;
+}
+
+.oparator-key {
+  width: 20%;
+}
+
+.number-key button {
+  /* padding: 10px 20px; */
+  width: 100px;
+  height: 59px;
+  margin: 4px 1px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.number-key button.equel {
+  width: 207px;
+}
+
+.tools-key button {
+  width: 24%;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 54px;
+}
+
+.tools-key {
+  margin-bottom: 6px;
+}
+
+.oparator-key button {
+  width: 100%;
+  height: 50px;
+  margin: 3px auto;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.oparator-key button:nth-child(1) {
+  background: #86d4ff;
+}
+
+.oparator-key button:nth-child(2) {
+  background: #a4d4ff;
+}
+
+.oparator-key button:nth-child(3) {
+  background: #c2d4ff;
+}
+
+.oparator-key button:nth-child(4) {
+  background: #e0d4ff;
+}
+
+.oparator-key button.plus {
+  height: 100px;
+}
+
+.calculator-key button {
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */
